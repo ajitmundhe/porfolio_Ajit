@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.navmenu{
+	font-size:20px;
+	color: royalblue;
+	font-weight: bolder;
+}
+.logo
+{
+	font-family: 25px;
+	font-family: elephant;
+	font-variant: small-caps;
+	color: orangered;
+}
+.section-menu{
+	position: relative;
+	top: 100px ;
+}
+.section-menu div{
+	height: 400px;
+	width: 100%;
+/*	border: 5px solid red;*/
+}
+.navbar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	width: 100px;
+}
+html{
+	scroll-behavior: smooth;
+}
+#home{
+     height: 500px;
+     width: 100%;
+     background-image: url('https://camo.githubusercontent.com/8bf6f6d78abc81fcf9c49f10649423e73ea44bc248e83aaae8759d401c829a84/68747470733a2f2f70687973696373677572756b756c2e66696c65732e776f726470726573732e636f6d2f323031392f30322f6368617261637465722d312e676966');
+     background-repeat: no-repeat;
+     background-position: 100% 90%;
+     position: relative;
+}
+.homeinfo
+{
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	height: 400px;
+	width: 800px;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.ginfo{
+	font-variant: small-caps;
+}
+.myname{
+	font-family: elephant;
+	color: royalblue;
+	font-size: 50px;
+}
+.fullstack
+{
+	color: orangered;
+	font-size: 33px;
+}
+.resumebtn
+{
+	border: none;
+	height: 50px;
+	width: 170px;
+	color: white;
+	background-color: royalblue;
+	border-radius: 10px;
+	font-weight: bolder;
+	transition-duration: 1s;
+}
+.resumebtn:hover
+{
+	transform: scale(1.1);
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+}
+.anch{
+	text-decoration: none;
+}
